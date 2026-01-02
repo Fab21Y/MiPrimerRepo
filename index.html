@@ -1,35 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-
-<body style="background-color:powderblue;">
-
-<h1>Fabian</h1>
-
-<p>Web designer and developer</p>
-
-<div class="header-container d-flex flex-column align-items-start">
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-          <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-          <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-          <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-          <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-          <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-            </ul>
-          </li>
-          <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
-        </ul>
-      </nav>
-
-
-
-    </div>
-
-</body>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fabian</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+<body>
+  <header>
+    <nav class="container">
+      <a class="logo" href="#">Fabian</a>
+      <ul class="nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero container">
+      <h1>Hello, I’m Fabian</h1>
+      <p>Im a designer and web developer.</p>
+      <a class="btn" href="#work">My works</a>
+    </section>
+  </header>
 
+  <main>
+    <section id="about" class="container">
+      <h2>About</h2>
+      <p>Web developer and designer, always looking for new challenges and more knowledge.</p>
+      <ul class="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+      </ul>
+    </section>
 
+    <section id="work" class="container">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="project-1.jpg" alt="Project 1 screenshot" />
+          <div class="card-body">
+            <h3>Prueba</h3>
+            <p>Description</p>
+            <div class="links">
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact</h2>
+      <ul class="ContactList">
+        <li><a href="fabianfonseca2106@gmail.com">Gmail</a></li>
+        <li><a href="https://www.linkedin.com/in/fabi%C3%A1n-fonseca-69002a359/">LinkedIn</a></li>
+        <li><a href="https://github.com/Fab21Y">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>Copy</small>
+    </div>
+  </footer>
+</body>
 </html>
